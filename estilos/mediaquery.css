@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* Media Querys*/
+
+@media screen and (min-width: 768px) {
+
+    main{
+        position: relative;
+        left: 50%;
+        top: 50%;
+        
+        
+        transform: translate(-20%, 40% );
+        
+    }
+
+    .box-content h2{
+        padding-bottom: 25px;
+    }
+
+    .box-content h1{
+        font-size: 42px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+
+    .box-content > p{
+        width: 270px;
+        font-size: 16px;
+        padding-bottom: 15px;
+    }
+
+    .box-img{
+        display: inline-block;
+        
+    }
+    .box-img img{
+        content: url(../images/image-product-desktop.jpg);
+        height: 475px;
+        border-radius: 10px 0px 0px 10px;
+        margin: 0px
+    }
+
+    .box-content{
+        display: inline-block;
+        position: absolute;
+        border-radius: 0px 10px 10px 0px;
+        height: 475px;
+        
+    }
+    
+    #cart{
+        margin-top: 35px;
+        
+    }
+}
